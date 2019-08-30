@@ -4,7 +4,7 @@
     display: fixed;
     top: 0;
     left: 0;
-    background-color: #703B09;
+    background-color: #20232a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,29 @@
 
 .Logo {
     height: 80%;
+    display: flex;
+    align-items: center;
+}
+.Span {
+    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-style: inherit;
+    color: white;
+}
+
+
+.Logo a{
+    color: #61dafb;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Toolbar Search {
+    height: 100%;
 }
 
 @media (max-width: 499px){

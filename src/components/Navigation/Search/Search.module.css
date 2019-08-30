@@ -1,0 +1,25 @@
+.Search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: auto;
+}
+
+.Input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    height: 80%;
+    border-radius: 5px;
+    font: inherit;
+}
+
+
+@media (max-width: 499px){
+    .Input{
+        display: none;
+    }
+}

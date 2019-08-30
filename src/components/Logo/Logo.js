@@ -4,7 +4,7 @@ import shopLogo from '../../assets/Images/Logo.jpg';
 
 const Logo = (props) => (
     <div className={classes.Logo}>
-        <img src={shopLogo} alter="MyShop" />
+       <img src={shopLogo} alt="MyShop" />
     </div>
 );
 
